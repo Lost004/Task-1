@@ -14,8 +14,8 @@ namespace FirstTask.Controllers
             {
                 new Model { Id = 1, Name = "M5", MarkaId= 1 },
                 new Model { Id = 2, Name = "A6", MarkaId= 2 },
-                new Model { Id = 4, Name = "S-500", MarkaId= 3 },
-                new Model { Id = 6, Name = "911", MarkaId= 4 },
+                new Model { Id = 3, Name = "S-500", MarkaId= 3 },
+                new Model { Id = 4, Name = "911", MarkaId= 4 },
             };
         }
         public IActionResult Index(int? id)
